@@ -7,10 +7,11 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/predicted_text"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="Orange as a favorite color represents a great need for socialization and a desire for human companionship. It represents a need for respect and acceptance within a group setting, but also a need for personal physical or social challenges within your life."
+        android:text="@string/orange_text"
         android:textColor="@color/orange_primary_dark"
         android:textSize="20sp"
         android:lineSpacingExtra="10dp"
