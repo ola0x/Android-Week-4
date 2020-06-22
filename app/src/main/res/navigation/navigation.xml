@@ -22,11 +22,13 @@
     <fragment
         android:id="@+id/orangeFragment"
         android:name="com.example.week4.OrangeFragment"
-        android:label="OrangeFragment" />
+        android:label="OrangeFragment"
+        tools:layout="@layout/fragment_orange"/>
     <fragment
         android:id="@+id/yellowFragment"
         android:name="com.example.week4.YellowFragment"
-        android:label="YellowFragment" />
+        android:label="YellowFragment"
+        tools:layout="@layout/fragment_yellow"/>
     <fragment
         android:id="@+id/redFragment"
         android:name="com.example.week4.RedFragment"

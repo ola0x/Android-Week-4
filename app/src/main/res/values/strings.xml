@@ -4,4 +4,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="fragment">Fragment</string>
+    <string name="title_color_picker">Who are you: Color picker</string>
+    <string name="color_picker_description">Your favorite color is said to define a big part of who you are, and can offer an inside look into your own personality and behavioral traits. Each shade of the rainbow triggers a certain psychological response, and can change not only your mood but the mood of others around you.</string>
+
 </resources>
