@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:text="@string/title_color_picker"
         android:textColor="@color/blue_primary_dark"
-        android:textSize="30sp"
+        android:textSize="20sp"
+        android:typeface="sans"
         android:layout_marginTop="10dp"
         android:lineSpacingMultiplier="2.2"/>
 
@@ -21,9 +22,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/color_picker_description"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textColor="@android:color/black"
-        android:layout_marginTop="30dp"/>
+        android:typeface="monospace"
+        android:layout_marginTop="15dp"/>
 
     <!-- TODO: Update blank fragment layout -->
     <RelativeLayout
@@ -31,7 +33,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="15dp">
+        android:layout_marginBottom="20dp">
 
         <Button
             android:id="@+id/button_green"
@@ -41,7 +43,7 @@
             android:gravity="center"
             android:text="Green"
             android:textColor="@android:color/white"
-            android:background="@color/green_primary_dark"/>
+            android:background="@drawable/green_button"/>
         <Button
             android:id="@+id/button_blue"
             android:layout_width="wrap_content"
@@ -50,7 +52,7 @@
             android:gravity="center"
             android:text="Blue"
             android:textColor="@android:color/white"
-            android:background="@color/blue_primary_dark"/>
+            android:background="@drawable/blue_button"/>
     </RelativeLayout>
 
     <RelativeLayout
@@ -67,7 +69,7 @@
             android:gravity="center"
             android:text="Red"
             android:textColor="@android:color/white"
-            android:background="@color/red_primary_dark"/>
+            android:background="@drawable/red_button"/>
         <Button
             android:id="@+id/button_yellow"
             android:layout_width="wrap_content"
@@ -76,7 +78,7 @@
             android:gravity="center"
             android:text="Yellow"
             android:textColor="@android:color/white"
-            android:background="@color/yellow_primary_dark"/>
+            android:background="@drawable/yellow_button"/>
     </RelativeLayout>
 
     <RelativeLayout
@@ -93,7 +95,7 @@
             android:gravity="center"
             android:text="Orange"
             android:textColor="@android:color/white"
-            android:background="@color/orange_primary_dark"/>
+            android:background="@drawable/orange_button"/>
     </RelativeLayout>
 
 </LinearLayout>
