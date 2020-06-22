@@ -29,7 +29,7 @@ class MainFragment : Fragment() {
         )
         binding.buttonOrange.setOnClickListener (
             Navigation.createNavigateOnClickListener(R.id.action_mainFragment_to_orangeFragment))
-        binding.buttonYello.setOnClickListener (
+        binding.buttonYellow.setOnClickListener (
             Navigation.createNavigateOnClickListener(R.id.action_mainFragment_to_yellowFragment))
 
         return binding.root
