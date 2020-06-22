@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
 
         binding  = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -25,5 +24,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.textview.setText(getString(R.string.text_change))
+
+
     }
 }
