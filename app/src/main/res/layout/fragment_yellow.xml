@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RedFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Yellow as a favorite color represents happiness and a love of learning. You probably have a deep need for logical order in your everyday life, and love to express your individuality by creating new ideas and sharing your collected knowledge with others."
+        android:textColor="@color/yellow_primary_dark"
+        android:textSize="20sp"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+
+</FrameLayout>

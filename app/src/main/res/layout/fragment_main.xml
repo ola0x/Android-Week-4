@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/text_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Who are you: Color picker"
+        android:textColor="@color/blue_primary_dark"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:lineSpacingMultiplier="2.2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your favorite color is said to define a big part of who you are, and can offer an inside look into your own personality and behavioral traits. Each shade of the rainbow triggers a certain psychological response, and can change not only your mood but the mood of others around you."
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red"
+            android:background="@color/red_primary_dark"
+            android:gravity="center"
+            android:layout_marginTop="100dp"/>
+        <Button
+            android:id="@+id/button_yello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yelow"
+            android:background="@color/yellow_primary_dark"
+            android:gravity="center"
+            android:layout_marginTop="100dp"/>
+        <Button
+            android:id="@+id/button_orange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orange"
+            android:background="@color/orange_primary_dark"
+            android:gravity="center"
+            android:layout_marginTop="100dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

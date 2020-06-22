@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RedFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Orange as a favorite color represents a great need for socialization and a desire for human companionship. It represents a need for respect and acceptance within a group setting, but also a need for personal physical or social challenges within your life."
+        android:textColor="@color/orange_primary_dark"
+        android:textSize="20sp"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+
+</FrameLayout>

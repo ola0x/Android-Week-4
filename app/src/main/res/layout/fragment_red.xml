@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RedFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="If red is your favorite color, you are bold, boisterous, and full of energy. Your need for adventure and spontaneous nature make you a passionate and ambitious individual (who also might harbor a slight competitive streak...) Do you also like being the center of attention? Always looking for an opportunity to shine? Red is the color choice to let the world know you live life to the fullest."
+        android:gravity="center"
+        android:textColor="@color/red_primary_dark"
+        android:textSize="20sp"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+
+</FrameLayout>

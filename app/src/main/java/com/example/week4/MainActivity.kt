@@ -19,12 +19,6 @@ class MainActivity : AppCompatActivity() {
         binding  = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.button.setOnClickListener {
-            Toast.makeText(this,"Now this",Toast.LENGTH_SHORT).show()
-        }
-
-        binding.textview.setText(getString(R.string.text_change))
-
 
     }
 }
