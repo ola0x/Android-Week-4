@@ -5,9 +5,12 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="fragment">Fragment</string>
     <string name="title_color_picker">Who are you: Color picker</string>
-    <string name="color_picker_description">Your favorite color is said to define a big part of who you are, and can offer an inside look into your own personality and behavioral traits. Each shade of the rainbow triggers a certain psychological response, and can change not only your mood but the mood of others around you.</string>
+    <string name="about_text">Your favorite color is said to define a big part of who you are, and can offer an inside look into your own personality and behavioral traits. Each shade of the rainbow triggers a certain psychological response, and can change not only your mood but the mood of others around you.</string>
     <string name="orange_text">Orange as a favorite color represents a great need for socialization and a desire for human companionship. It represents a need for respect and acceptance within a group setting, but also a need for personal physical or social challenges within your life.</string>
     <string name="red_text">If red is your favorite color, you are bold, boisterous, and full of energy. Your need for adventure and spontaneous nature make you a passionate and ambitious individual (who also might harbor a slight competitive streak...) Do you also like being the center of attention? Always looking for an opportunity to shine? Red is the color choice to let the world know you live life to the fullest.</string>
     <string name="yellow_text">Yellow as a favorite color represents happiness and a love of learning. You probably have a deep need for logical order in your everyday life, and love to express your individuality by creating new ideas and sharing your collected knowledge with others.</string>
+    <string name="title_about_trivia">About Trivia</string>
+    <string name="about">About</string>
+    <string name="rules">Rules</string>
 
 </resources>

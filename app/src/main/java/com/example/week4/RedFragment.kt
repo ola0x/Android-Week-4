@@ -22,8 +22,6 @@ class RedFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         binding = FragmentRedBinding.inflate(inflater,container,false)
-        binding.predictedText.setText(getText(R.string.red_text))
-
         return binding.root
     }
 

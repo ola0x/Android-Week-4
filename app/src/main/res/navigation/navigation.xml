@@ -7,31 +7,53 @@
     <fragment
         android:id="@+id/mainFragment"
         android:name="com.example.week4.MainFragment"
-        android:label="fragment_main"
-        tools:layout="@layout/fragment_main" >
+        android:label="Main Fragment"
+        tools:layout="@layout/fragment_main">
         <action
             android:id="@+id/action_mainFragment_to_redFragment"
-            app:destination="@id/redFragment" />
+            app:destination="@id/redFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
         <action
             android:id="@+id/action_mainFragment_to_orangeFragment"
-            app:destination="@id/orangeFragment" />
+            app:destination="@id/orangeFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_in_right" />
         <action
             android:id="@+id/action_mainFragment_to_yellowFragment"
-            app:destination="@id/yellowFragment" />
+            app:destination="@id/yellowFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_in_right" />
     </fragment>
     <fragment
         android:id="@+id/orangeFragment"
         android:name="com.example.week4.OrangeFragment"
-        android:label="OrangeFragment"
-        tools:layout="@layout/fragment_orange"/>
+        android:label="Orange Fragment"
+        tools:layout="@layout/fragment_orange" />
     <fragment
         android:id="@+id/yellowFragment"
         android:name="com.example.week4.YellowFragment"
-        android:label="YellowFragment"
-        tools:layout="@layout/fragment_yellow"/>
+        android:label="Yellow Fragment"
+        tools:layout="@layout/fragment_yellow" />
     <fragment
         android:id="@+id/redFragment"
         android:name="com.example.week4.RedFragment"
-        android:label="fragment_orange"
-        tools:layout="@layout/fragment_orange" />
+        android:label="Red Fragment"
+        tools:layout="@layout/fragment_red" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.week4.AboutFragment"
+        android:label="About Fragment"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/rulesFragment"
+        android:name="com.example.week4.RulesFragment"
+        android:label="Rule Fragment"
+        tools:layout="@layout/fragment_rules" />
 </navigation>
